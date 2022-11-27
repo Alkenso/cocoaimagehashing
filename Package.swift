@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 import PackageDescription
 
 let package = Package(
   name: "CocoaImageHashing",
   products: [
-    .library(name: "CocoaImageHashing", type: .static, targets: ["CocoaImageHashing"])
+    .library(name: "CocoaImageHashing", targets: ["CocoaImageHashing"])
   ],
   targets: [
     .target(
